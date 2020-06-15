@@ -1,0 +1,7 @@
+version: "1"
+services:
+  test-cd:
+    build: .
+    ports:
+      - 8030:8030
+    restart: unless-stopped
