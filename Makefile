@@ -1,2 +1,2 @@
 build:
-\tdocker-compose up --build
+	docker-compose up --build
